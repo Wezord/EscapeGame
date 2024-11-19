@@ -1,0 +1,4 @@
+newmtl pyramide
+d 1.0000
+map_Ka texture.jpg
+map_Kd texture.jpg
