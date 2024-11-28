@@ -15,6 +15,8 @@ public class colliderEvent : MonoBehaviour
             other.transform.position = transform.position;
             Destroy(other.GetComponent<Rigidbody>());
             Debug.Log(other.gameObject.name + " est maintenant un enfant de " + gameObject.name);
+
+            PlayerManager.current.IsHoldingObject = false;
         }
     }
 }

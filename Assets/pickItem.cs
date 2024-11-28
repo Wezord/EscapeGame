@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -26,6 +27,8 @@ public class pickItem : MonoBehaviour{
     {
         LayerNumber = LayerMask.NameToLayer("interactable"); //if your holdLayer is named differently make sure to change this ""
         clickAction.Enable();
+
+        PlayerManager.current.onHeldObject += clearObject;
 
         //mouseLookScript = player.GetComponent<MouseLookScript>();
     }
@@ -85,6 +88,7 @@ public class pickItem : MonoBehaviour{
     }
     void DropObject()
     {
+        Debug.Log("Drop");
         //re-enable collision with player
         Physics.IgnoreCollision(heldObj.GetComponent<Collider>(), player.GetComponent<Collider>(), false);
         heldObj.layer = 0; //object assigned back to default layer
@@ -145,5 +149,13 @@ public class pickItem : MonoBehaviour{
             heldObj.transform.position = transform.position + new Vector3(0f, -0.5f, 0f); //offset slightly downward to stop object dropping above player 
             //if your player is small, change the -0.5f to a smaller number (in magnitude) ie: -0.1f
         }
+    }
+
+    void clearObject(Boolean d){
+        heldObj.layer = 0; //object assigned back to default layer
+        heldObjRb.isKinematic = false;
+        heldObj.transform.parent = null; //unparent object
+        heldObj = null; //undefine game object
+        Debug.Log("Clear");
     }
 }
