@@ -1162,11 +1162,8 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -8678823145569952518, guid: 7025682d772f47a489ece3f56050a29a, type: 3}
-<<<<<<< HEAD
 --- !u!1 &626118578
-=======
 --- !u!1 &564235963
->>>>>>> 83415b081a2fbfc6f6d85620ad60b854ea59d40a
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1174,37 +1171,30 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-<<<<<<< HEAD
   - component: {fileID: 626118580}
   - component: {fileID: 626118579}
   - component: {fileID: 626118581}
   m_Layer: 0
   m_Name: Manager
-=======
   - component: {fileID: 564235965}
   - component: {fileID: 564235964}
   - component: {fileID: 564235966}
   m_Layer: 0
   m_Name: pivotDoor
->>>>>>> 83415b081a2fbfc6f6d85620ad60b854ea59d40a
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD
 --- !u!114 &626118579
 MonoBehaviour:
-=======
 --- !u!95 &564235964
 Animator:
   serializedVersion: 5
->>>>>>> 83415b081a2fbfc6f6d85620ad60b854ea59d40a
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
   m_GameObject: {fileID: 626118578}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -1213,7 +1203,6 @@ Animator:
   m_EditorClassIdentifier: 
   isHoldingObject: 0
 --- !u!4 &626118580
-=======
   m_GameObject: {fileID: 564235963}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
@@ -1229,13 +1218,11 @@ Animator:
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
 --- !u!4 &564235965
->>>>>>> 83415b081a2fbfc6f6d85620ad60b854ea59d40a
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
   m_GameObject: {fileID: 626118578}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -1246,7 +1233,6 @@ Transform:
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &626118581
-=======
   m_GameObject: {fileID: 564235963}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -1258,13 +1244,11 @@ Transform:
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &564235966
->>>>>>> 83415b081a2fbfc6f6d85620ad60b854ea59d40a
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
   m_GameObject: {fileID: 626118578}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -1272,7 +1256,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isHoldingObject: 0
-=======
   m_GameObject: {fileID: 564235963}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -1401,7 +1384,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 624401562}
   m_CullTransparentMesh: 1
->>>>>>> 83415b081a2fbfc6f6d85620ad60b854ea59d40a
 --- !u!1 &634476477
 GameObject:
   m_ObjectHideFlags: 0
@@ -4491,12 +4473,9 @@ SceneRoots:
   - {fileID: 1173589049}
   - {fileID: 634476481}
   - {fileID: 1194362469}
-<<<<<<< HEAD
   - {fileID: 626118580}
   - {fileID: 357532186}
-=======
   - {fileID: 564235965}
   - {fileID: 1381451708}
   - {fileID: 1994214320}
   - {fileID: 440153306}
->>>>>>> 83415b081a2fbfc6f6d85620ad60b854ea59d40a
