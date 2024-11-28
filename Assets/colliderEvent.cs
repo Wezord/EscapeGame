@@ -17,6 +17,7 @@ public class colliderEvent : MonoBehaviour
             Debug.Log(other.gameObject.name + " est maintenant un enfant de " + gameObject.name);
 
             PlayerManager.current.IsHoldingObject = false;
+            DoorManager.current.IsOpen = true;
         }
     }
 }
